@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Love Ya Like A Sister', cursive; /* Exemple de police à thème cœur */
+    background-color: pink; /* Fond rose */
+    color: #ff3399; /* Couleur de texte rose */
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff66b3; /* Fond des boutons rose */
+    border: 2px solid #ff99cc; /* Bordure des boutons */
+    border-radius: 10px; /* Bordures arrondies */
+    color: white; /* Texte blanc */
+    font-family: 'Love Ya Like A Sister', cursive;
+    transition: transform 0.3s ease; /* Animation */
+}
+
+button:hover {
+    background-color: #ff3399; /* Couleur au survol */
+    transform: scale(1.1); /* Grossissement au survol */
+}
+
+img {
+    max-width: 200px; /* Ajustez selon vos besoins */
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: 'Love Ya Like A Sister';
+    src: url('chemin_vers/LoveYaLikeASister-Regular.ttf'); /* Chemin vers le fichier de police */
+}
